@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marion/Documents/Scolarite%CC%81%20et%20apprentissage/Master%20Data%20Scientist/Projet%207%20-%20Imple%CC%81mentez%20un%20mode%CC%80le%20de%20scoring/data%20et%20notebook/mlruns/631442393085147088/76884a87ea4948ff830fb51846555391/artifacts
+end_time: 1705862540271
+entry_point_name: ''
+experiment_id: '631442393085147088'
+lifecycle_stage: active
+run_id: 76884a87ea4948ff830fb51846555391
+run_name: Random_Forest
+run_uuid: 76884a87ea4948ff830fb51846555391
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705862531458
+status: 3
+tags: []
+user_id: marion
