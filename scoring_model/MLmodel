@@ -1,0 +1,22 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.8.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.9.2
+model_size_bytes: 589471
+model_uuid: 4729ad93c92c4c529d50e97d930f1a5f
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 412]}}]'
+  outputs: '[{"type": "double", "name": "TARGET"}]'
+  params: null
+utc_time_created: '2024-01-28 15:24:56.463164'
