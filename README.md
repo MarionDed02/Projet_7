@@ -24,3 +24,40 @@ Dans le monde de la finance, l'octroi de crédits à la consommation représente
 - Gestion du code et documentation: Via Git et Github.
 - Tableau HTML de Data Drift généré avec 'evidently'.
 - Présentation de la soutenance: Incluant des éléments visuels et des liens vers les ressources clés.
+
+---
+
+## Contenu du Repository
+
+## Analyse exploratoire des données (EDA) & Modélisation
+
+- **Dedieu_Marion_1_EDA_preprocessing_012024.ipynb** : Notebook Jupyter pour l'analyse exploratoire des données et le prétraitement.
+- **Dedieu_Marion_2_modelisation_012024.ipynb** : Notebook Jupyter pour la modélisation et la construction du modèle.
+- **saved_model/** : Répertoire contenant le modèle pré-entraîné utilisé pour le scoring des clients.
+- **scoring_model/** : Répertoire contenant les enregistrements MLflow pour le suivi et la gestion des modèles.
+
+## Tableau de bord intéractif (Streamlit)
+
+- **preprocessing.py** : Script Python contenant les fonctions de prétraitement des données.
+- **dashboard.py** : Code source du tableau de bord interactif développé avec Streamlit.
+- **df_dashboard_final.csv** : Données finales à afficher dans le tableau de bord.
+- **df_feature_importance_25.csv** : Fichier contenant l'importance des variables pour la modélisation.
+- **logo.jpg** : Logo utilisé dans le tableau de bord ou la documentation.
+- **test_dashboard.py** : Script de test Pytest pour le tableau de bord.
+
+## Data Drift
+
+- **datadrift.py** : Script Python pour l'analyse et la détection du Data Drift entre les jeux de données.
+- **Datadrift_report.html** : Rapport HTML généré pour l'analyse du Data Drift.
+
+## Configuration et Déploiement
+
+- **Procfile** : Fichier nécessaire pour le déploiement de l'application sur Heroku.
+- **requirements.txt** : Liste des dépendances Python nécessaires pour exécuter le projet.
+- **runtime.txt** : Spécification de la version de Python utilisée dans le projet.
+- **setup.sh** : Script de configuration nécessaire pour le déploiement sur Heroku.
+
+## Ressources supplémentaires
+
+- **16794938722698_Data_Scientist-P7-01-banner.png** : Image utilisée dans la documentation.
+- **README.md** : Fichier présentant le contenu et l'utilisation du repository.
