@@ -15,13 +15,12 @@ Dans le monde de la finance, l'octroi de crédits à la consommation représente
 - Utilisation de Kernels Kaggle pour l'analyse exploratoire, la préparation des données, et le feature engineering.
 - MLOps et outils open source: Incorporation de MLFlow pour le tracking d'expériences, la gestion des modèles, et le serving. Utilisation de Git pour la gestion de version et de Github pour l'intégration et le déploiement continus, en plus de Pytest pour les tests unitaires.
 - Prise en compte du déséquilibre des données : Importance de considérer le déséquilibre entre les bons et les mauvais clients ainsi que les coûts associés aux faux négatifs et faux positifs.
-- Optimisation et validation du modèle : Utilisation de techniques comme Cross-Validation et GridsearchCV pour affiner le modèle.
+- Optimisation et validation du modèle : Utilisation de techniques comme Cross-Validation et RandomSearchCV pour affiner le modèle.
 - Surveillance de la performance en production: Utilisation de la librairie 'evidently' pour détecter le Data Drift.
 
 ## Livrables
-- API de prédiction de score sur le cloud.
-- Notebook Jupyter: De la modélisation au prétraitement et à la prédiction, intégrant MLFlow.
-- Gestion du code et documentation: Via un outil de versioning et Github.
+- Lien de l'application Streamlit déployée sur le cloud via Heroku : https://fierce-everglades-55385-d1cc166ae1d0.herokuapp.com
+- Notebooks Jupyter: Du prétraitement et à la modélisation, intégrant MLFlow.
+- Gestion du code et documentation: Via Git et Github.
 - Tableau HTML de Data Drift généré avec 'evidently'.
-- Interface de test API: Réalisée via un Notebook ou une application Streamlit.
 - Présentation de la soutenance: Incluant des éléments visuels et des liens vers les ressources clés.
